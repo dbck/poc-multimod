@@ -1,4 +1,4 @@
-package de.dbck.poc.multimod;
+package de.dbck.poc.multimod.moda;
 
 /**
  * Hello world!

@@ -22,6 +22,8 @@
 
   <modules>
     <module>../poc-multimod-moda</module>
+    <module>../poc-multimod-modb</module>
+    <module>../poc-multimod-modc</module>
   </modules>
 
   <scm>
