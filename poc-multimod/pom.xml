@@ -13,7 +13,7 @@
   </parent>
 
   <artifactId>poc-multimod</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.2-SNAPSHOT</version>
   <description>Project ${project.artifactId}</description>
   <name>${project.artifactId}</name>
   <url>https://github.com/dbck/${project.artifactId}</url>
@@ -185,11 +185,6 @@
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-javadoc-plugin</artifactId>
             <version>${maven-javadoc-plugin.version}</version>
-          </plugin>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-scm-plugin</artifactId>
-            <version>${maven-scm-plugin.version}</version>
           </plugin>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>

@@ -6,10 +6,24 @@
   <parent>
     <artifactId>poc-multimod</artifactId>
     <groupId>de.dbck.poc</groupId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <relativePath>../poc-multimod</relativePath>
   </parent>
 
   <groupId>de.dbck.poc.multimod</groupId>
   <artifactId>poc-multimod-modb</artifactId>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-scm-plugin</artifactId>
+          <configuration>
+            <skip>true</skip>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
 </project>
