@@ -6,7 +6,7 @@
   <parent>
     <artifactId>poc-multimod</artifactId>
     <groupId>de.dbck.poc</groupId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
     <relativePath>../poc-multimod</relativePath>
   </parent>
 
@@ -14,16 +14,21 @@
   <artifactId>poc-multimod-modc</artifactId>
 
   <build>
-    <pluginManagement>
       <plugins>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-scm-plugin</artifactId>
+          <executions>
+            <execution>
+              <id>scm-tag</id>
+              <phase />
+            </execution>
+          </executions>
           <configuration>
             <skip>true</skip>
           </configuration>
         </plugin>
       </plugins>
-    </pluginManagement>
   </build>
+
 </project>
