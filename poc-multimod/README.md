@@ -4,6 +4,12 @@
 mvn install
 ```
 
+# Generate sub module
+
+```
+mvn archetype:generate -DgroupId=de.dbck.poc.multimod -DartifactId=poc-multimod-moda -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+```
+
 # Deploy
 
 ```
