@@ -13,7 +13,7 @@
   </parent>
 
   <artifactId>poc-multimod</artifactId>
-  <version>0.0.4-SNAPSHOT</version>
+  <version>0.0.5-SNAPSHOT</version>
   <description>Project ${project.artifactId}</description>
   <name>${project.artifactId}</name>
   <url>https://github.com/dbck/${project.artifactId}</url>
