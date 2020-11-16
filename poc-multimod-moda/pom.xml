@@ -6,7 +6,7 @@
   <parent>
     <artifactId>poc-multimod</artifactId>
     <groupId>de.dbck.poc</groupId>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.4-SNAPSHOT</version>
     <relativePath>../poc-multimod</relativePath>
   </parent>
 
